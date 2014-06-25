@@ -125,7 +125,8 @@
 
     $.fn.modalPopover.defaults = $.extend({}, $.fn.modal.defaults, {
         placement:'right',
-        keyboard: true
+        keyboard: true,
+        backdrop: true
     });
 
 
